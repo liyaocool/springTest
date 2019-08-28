@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbd72c0-19d5-4ec1-bb25-2f29aee944dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo02/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo02/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thinrain/demo02/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo02/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo02/service/impl/UserServiceFestival.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo02/service/impl/UserServiceNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thinrain/demo02/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thinrain/demo02/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo02/config/AppConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,22 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="soundSystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="soundSystem" />
-      <option name="MAIN_CLASS_NAME" value="soundSystem.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserServiceTest (1)">
     <configuration name="UserControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springTest" />
       <extension name="coverage">
@@ -167,6 +154,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thinrain.demo02.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thinrain.demo02.service" />
+      <option name="MAIN_CLASS_NAME" value="com.thinrain.demo02.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springTest" />
       <extension name="coverage">
@@ -199,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest (1)" />
         <item itemvalue="JUnit.UserDaoTest" />
         <item itemvalue="JUnit.UserControllerTest (1)" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserControllerTest" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +224,7 @@
       <workItem from="1566957178475" duration="12000" />
       <workItem from="1566957229800" duration="3876000" />
       <workItem from="1566961158000" duration="16357000" />
-      <workItem from="1566994788079" duration="3878000" />
+      <workItem from="1566994788079" duration="7672000" />
     </task>
     <task id="LOCAL-00001" summary="1.log4j日志配置;&#10;2.单元测试使用;&#10;3.选择性自动装配(required=false)">
       <created>1566971526456</created>
@@ -259,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566980807465</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.config配置提取；&#10;2.对于引用第三方接口文件，不能改变文件添加@Compoent注解装配的，可在配置里@Bean显示装配">
+      <created>1567000772530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567000772530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +290,8 @@
     <MESSAGE value="1.重构基本应用架构,DAO层,SERVICE层,WEB层;&#10;2.单元测试通过WEB控制层;" />
     <MESSAGE value="冲突" />
     <MESSAGE value="文件冲突" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件冲突" />
+    <MESSAGE value="1.config配置提取；&#10;2.对于引用第三方接口文件，不能改变文件添加@Compoent注解装配的，可在配置里@Bean显示装配" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.config配置提取；&#10;2.对于引用第三方接口文件，不能改变文件添加@Compoent注解装配的，可在配置里@Bean显示装配" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springTest$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1566969927834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
