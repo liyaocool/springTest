@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbd72c0-19d5-4ec1-bb25-2f29aee944dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo01/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo01/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thinrain/demo01/web/UserControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thinrain/demo01/service/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo01/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thinrain/demo01/service/com/thinrain/demo01/service/impl/UserServiceFestival.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo01/service/impl/UserServiceFestival.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thinrain/demo01/service/com/thinrain/demo01/service/impl/UserServiceNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo01/service/impl/UserServiceNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thinrain/demo01/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thinrain/demo01/service/UserServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,13 +43,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo01/service/impl/UserServiceNormal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="76">
+              <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
                 <element signature="e#346#347#0" expanded="true" />
               </folding>
@@ -66,12 +57,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo01/service/UserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo01/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="114">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
-                <element signature="e#78#79#0" expanded="true" />
                 <element signature="e#122#123#0" expanded="true" />
               </folding>
             </state>
@@ -392,7 +394,7 @@
       <workItem from="1566957117618" duration="29000" />
       <workItem from="1566957178475" duration="12000" />
       <workItem from="1566957229800" duration="3876000" />
-      <workItem from="1566961158000" duration="15335000" />
+      <workItem from="1566961158000" duration="15626000" />
     </task>
     <task id="LOCAL-00001" summary="1.log4j日志配置;&#10;2.单元测试使用;&#10;3.选择性自动装配(required=false)">
       <created>1566971526456</created>
@@ -408,13 +410,17 @@
       <option name="project" value="LOCAL" />
       <updated>1566972660134</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.重构基本应用架构,DAO层,SERVICE层,WEB层;&#10;2.单元测试通过WEB控制层;">
+      <created>1566980455587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566980455587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserControllerTest - 2019.08.28 at 16h 07m 09s.xml">
-      <configuration name="UserControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserControllerTest - 2019.08.28 at 16h 07m 45s.xml">
       <configuration name="UserControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -442,9 +448,12 @@
     <history-entry file="UserControllerTest - 2019.08.28 at 16h 17m 30s.xml">
       <configuration name="UserControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest - 2019.08.28 at 16h 18m 19s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19778000" />
+    <option name="totallyTimeSpent" value="20069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -459,7 +468,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22383073" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3062361" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,7 +476,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3062361" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32850778" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -489,7 +498,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.log4j日志配置;&#10;2.单元测试使用;&#10;3.选择性自动装配(required=false)" />
     <MESSAGE value="1.@Qualifier(&quot;首字母小写类名&quot;),装配指定的实现类" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.@Qualifier(&quot;首字母小写类名&quot;),装配指定的实现类" />
+    <MESSAGE value="1.重构基本应用架构,DAO层,SERVICE层,WEB层;&#10;2.单元测试通过WEB控制层;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.重构基本应用架构,DAO层,SERVICE层,WEB层;&#10;2.单元测试通过WEB控制层;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springTest$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1566969927834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -729,16 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo01/service/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo01/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -752,17 +752,6 @@
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo01/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#78#79#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -791,12 +780,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo01/service/impl/UserServiceNormal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="76">
+          <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#308#309#0" expanded="true" />
             <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo01/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo01/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
