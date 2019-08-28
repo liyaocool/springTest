@@ -1,4 +1,4 @@
-package com.thinrain.demo01.service;
+package com.thinrain.demo01;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
