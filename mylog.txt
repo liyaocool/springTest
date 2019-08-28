@@ -1,0 +1,3 @@
+10:41:56.765 [main] INFO  TRACE_ALL - MessageService constructor
+10:45:51.656 [main] ERROR TRACE_ALL - MessageService constructor
+10:57:47.810 [main] ERROR TRACE_ALL - MessageService constructor
