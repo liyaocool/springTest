@@ -14,11 +14,11 @@
         <constructor-arg name="title" value="床边故事" />
         <constructor-arg name="artist" value="周杰伦" />
         <constructor-arg name="musicList">
-            <map>
-                <entry key="m1" value-ref="music1"/>
-                <entry key="m2" value-ref="music2"/>
-                <entry key="m2" value-ref="music2"/>
-            </map>
+            <array>
+<!--                <value>简单类型:</value>-->
+                <ref bean="music1" />
+                <ref bean="music2" />
+            </array>
         </constructor-arg>
     </bean>
 <!--    <bean id="compactDisc2" class="com.thinrain.demo03.CompactDisc" />-->

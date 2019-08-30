@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cbd72c0-19d5-4ec1-bb25-2f29aee944dd" name="Default Changelist" comment="">
+    <list default="true" id="4cbd72c0-19d5-4ec1-bb25-2f29aee944dd" name="Default Changelist" comment="1.注入数组类型[]类型">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml" afterDir="false" />
     </list>
+    <ignored path=".idea/" />
+    <ignored path="target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+            <state relative-caret-position="302">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -33,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo03/CDPlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CDPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#355#356#0" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
@@ -54,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo03/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="247">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="-192">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -79,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/Music.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -125,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/thinrain/demo03/CDPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -158,69 +162,6 @@
               <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="springTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinrain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinrain" type="462c0819:PsiDirectoryNode" />
-              <item name="demo03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinrain" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,7 +173,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -402,7 +343,7 @@
       <workItem from="1566957229800" duration="3876000" />
       <workItem from="1566961158000" duration="16357000" />
       <workItem from="1566994788079" duration="7672000" />
-      <workItem from="1567129406728" duration="5770000" />
+      <workItem from="1567129406728" duration="7358000" />
     </task>
     <task id="LOCAL-00001" summary="1.log4j日志配置;&#10;2.单元测试使用;&#10;3.选择性自动装配(required=false)">
       <created>1566971526456</created>
@@ -460,31 +401,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567134564680</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.注入Set类型">
+      <created>1567135248917</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567135248918</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.注入map类型">
+      <created>1567135658406</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567135658406</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CDPlayerTest - 2019.08.30 at 10h 43m 05s.xml">
-      <configuration name="CDPlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.30 at 10h 43m 22s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.30 at 10h 43m 44s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.30 at 10h 44m 44s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.30 at 10h 53m 21s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.30 at 10h 56m 37s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.30 at 11h 07m 20s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CDPlayerTest - 2019.08.30 at 11h 10m 06s.xml">
       <configuration name="CDPlayerTest" configurationId="JUnit" />
     </history-entry>
@@ -494,9 +428,30 @@
     <history-entry file="AppTest - 2019.08.30 at 11h 15m 58s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 11h 26m 37s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 11h 26m 41s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 11h 31m 36s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 11h 33m 58s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 11h 38m 09s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 11h 40m 44s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 11h 41m 54s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5770000" />
+    <option name="totallyTimeSpent" value="7358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -507,7 +462,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -515,11 +470,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32962137" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4599109" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -556,19 +511,10 @@
     <MESSAGE value="1.config配置提取；&#10;2.对于引用第三方接口文件，不能改变文件添加@Compoent注解装配的，可在配置里@Bean显示装配" />
     <MESSAGE value="1.使用XML配置项目&#10;2.XML&lt;bean&gt;注入&#10;3.XML构造函数注入&#10;4.XML简单常用类型注入" />
     <MESSAGE value="1.列表list简单类型String注入;&#10;2.列表list复杂类型Bean对象注入" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.列表list简单类型String注入;&#10;2.列表list复杂类型Bean对象注入" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="1.注入Set类型" />
+    <MESSAGE value="1.注入map类型" />
+    <MESSAGE value="1.注入数组类型[]类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.注入数组类型[]类型" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springTest$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1566969927834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -607,7 +553,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
@@ -626,7 +572,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CDPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
@@ -637,7 +583,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo03/CDPlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -646,25 +592,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo03/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-192">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+        <state relative-caret-position="302">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo03/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
