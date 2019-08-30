@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
@@ -8,9 +9,12 @@
         <property name="duration" value="325" />
     </bean>
 
-    <bean id="music2" class="com.thinrain.demo03.Music">
-        <property name="title" value="晴天" />
-        <property name="duration" value="425" />
+    <bean id="music2" class="com.thinrain.demo03.Music"
+          p:title="晴天"
+          p:duration="425"
+    >
+<!--        <property name="title" value="晴天" />-->
+<!--        <property name="duration" value="425" />-->
     </bean>
 
     <bean id="compactDisc1" class="com.thinrain.demo03.CompactDisc">
