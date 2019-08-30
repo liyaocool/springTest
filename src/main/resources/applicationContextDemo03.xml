@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="compactDisc1" class="com.thinrain.demo03.CompactDisc">
+        <constructor-arg name="title" value="床边故事" />
+        <constructor-arg name="artist" value="周杰伦" />
+    </bean>
+<!--    <bean id="compactDisc2" class="com.thinrain.demo03.CompactDisc" />-->
+<!--    <bean name="compactDisc3 compactDisc31" class="com.thinrain.demo03.CompactDisc" />-->
+<!--    <bean id="cdPlayer1" class="com.thinrain.demo03.CDPlayer">-->
+<!--        <constructor-arg ref="compactDisc1" />-->
+<!--    </bean>-->
+</beans>
