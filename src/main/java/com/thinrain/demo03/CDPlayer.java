@@ -13,6 +13,15 @@ public class CDPlayer {
         System.out.println(("有参构造CDPlayer" + this.toString()));
     }
 
+    public void setCd(CompactDisc cd) {
+        this.cd = cd;
+        System.out.println("在"+this.toString()+"注入cd");
+    }
+
+    public CompactDisc getCd() {
+        return cd;
+    }
+
     public void play() {
         cd.play();
     }

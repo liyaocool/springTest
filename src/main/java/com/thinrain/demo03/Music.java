@@ -6,6 +6,7 @@ public class Music {
 
     public Music() {
         super();
+        System.out.println("Music无参构造");
     }
 
     public Music(String title, Integer duration) {
@@ -15,10 +16,12 @@ public class Music {
 
     public void setTitle(String title) {
         this.title = title;
+        System.out.println("--在"+ this.toString() + "注入title");
     }
 
     public void setDuration(Integer duration) {
         this.duration = duration;
+        System.out.println("--在"+ this.toString() + "注入duration");
     }
 
     public String getTitle() {

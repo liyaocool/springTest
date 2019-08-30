@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="music1" class="com.thinrain.demo03.Music">
+        <property name="title" value="告白气球" />
+        <property name="duration" value="325" />
+    </bean>
+
+    <bean id="music2" class="com.thinrain.demo03.Music">
+        <property name="title" value="晴天" />
+        <property name="duration" value="425" />
+    </bean>
+
+    <bean id="compactDisc1" class="com.thinrain.demo03.CompactDisc">
+        <property name="title" value="珊瑚海" />
+        <property name="artist" value="周杰伦" />
+        <property name="musicList" >
+            <array>
+                <ref bean="music1"/>
+                <ref bean="music2"/>
+            </array>
+        </property>
+    </bean>
+
+    <bean id="cDPlayer1" class="com.thinrain.demo03.CDPlayer">
+        <property name="cd" ref="compactDisc1"/>
+    </bean>
+</beans>
