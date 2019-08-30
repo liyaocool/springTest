@@ -14,7 +14,7 @@
         <constructor-arg name="title" value="床边故事" />
         <constructor-arg name="artist" value="周杰伦" />
         <constructor-arg name="musicList">
-            <list>
+            <set>
 <!--                String简单类型用value直接注入-->
 <!--                <value>告白气球</value>-->
 <!--                <value>床边故事</value>-->
@@ -23,12 +23,14 @@
 <!--                非简单类型,上方bean注入后,ref引入再注入该bean-->
                 <ref bean="music1" />
                 <ref bean="music2" />
-            </list>
+<!--                set区别于list,会去重. spring中 set结构使用LinkedHashSet,有序.-->
+                <ref bean="music2" />
+            </set>
         </constructor-arg>
     </bean>
 <!--    <bean id="compactDisc2" class="com.thinrain.demo03.CompactDisc" />-->
 <!--    <bean name="compactDisc3 compactDisc31" class="com.thinrain.demo03.CompactDisc" />-->
-<!--    <bean id="cdPlayer1" class="com.thinrain.demo03.CDPlayer">-->
-<!--        <constructor-arg ref="compactDisc1" />-->
-<!--    </bean>-->
+    <bean id="cdPlayer1" class="com.thinrain.demo03.CDPlayer">
+        <constructor-arg ref="compactDisc1" />
+    </bean>
 </beans>
