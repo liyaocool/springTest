@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cbd72c0-19d5-4ec1-bb25-2f29aee944dd" name="Default Changelist" comment="1.config配置提取；&#10;2.对于引用第三方接口文件，不能改变文件添加@Compoent注解装配的，可在配置里@Bean显示装配">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/ApplicationSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CDPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thinrain/demo03/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thinrain/demo03/CDPlayerTest.java" afterDir="false" />
+    <list default="true" id="4cbd72c0-19d5-4ec1-bb25-2f29aee944dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="324">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CDPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="95">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#355#356#0" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
@@ -73,11 +70,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="93" lean-forward="true" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+            <state relative-caret-position="380">
+              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,8 +122,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/ApplicationSpring.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CDPlayer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thinrain/demo03/CDPlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thinrain/demo03/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/Music.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml" />
       </list>
     </option>
@@ -388,7 +403,7 @@
       <workItem from="1566957229800" duration="3876000" />
       <workItem from="1566961158000" duration="16357000" />
       <workItem from="1566994788079" duration="7672000" />
-      <workItem from="1567129406728" duration="3767000" />
+      <workItem from="1567129406728" duration="5021000" />
     </task>
     <task id="LOCAL-00001" summary="1.log4j日志配置;&#10;2.单元测试使用;&#10;3.选择性自动装配(required=false)">
       <created>1566971526456</created>
@@ -432,16 +447,17 @@
       <option name="project" value="LOCAL" />
       <updated>1567000772530</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.使用XML配置项目&#10;2.XML&lt;bean&gt;注入&#10;3.XML构造函数注入&#10;4.XML简单常用类型注入">
+      <created>1567133289141</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567133289141</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.08.30 at 10h 11m 49s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.30 at 10h 14m 07s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2019.08.30 at 10h 14m 18s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -466,9 +482,15 @@
     <history-entry file="AppTest - 2019.08.30 at 10h 44m 44s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 10h 53m 21s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.08.30 at 10h 56m 37s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3767000" />
+    <option name="totallyTimeSpent" value="5021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -479,7 +501,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -490,7 +512,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,7 +548,8 @@
     <MESSAGE value="冲突" />
     <MESSAGE value="文件冲突" />
     <MESSAGE value="1.config配置提取；&#10;2.对于引用第三方接口文件，不能改变文件添加@Compoent注解装配的，可在配置里@Bean显示装配" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.config配置提取；&#10;2.对于引用第三方接口文件，不能改变文件添加@Compoent注解装配的，可在配置里@Bean显示装配" />
+    <MESSAGE value="1.使用XML配置项目&#10;2.XML&lt;bean&gt;注入&#10;3.XML构造函数注入&#10;4.XML简单常用类型注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.使用XML配置项目&#10;2.XML&lt;bean&gt;注入&#10;3.XML构造函数注入&#10;4.XML简单常用类型注入" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springTest$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1566969927834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -562,13 +585,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo03/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CDPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,31 +635,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/demo03/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/demo03/CompactDisc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="93" lean-forward="true" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContextDemo03.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="324">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
         </state>
       </provider>
     </entry>

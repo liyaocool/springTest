@@ -2,9 +2,29 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="music1" class="com.thinrain.demo03.Music">
+        <constructor-arg value="黑色幽默" />
+        <constructor-arg value="230" />
+    </bean>
+    <bean id="music2" class="com.thinrain.demo03.Music">
+        <constructor-arg value="我不配" />
+        <constructor-arg value="330" />
+    </bean>
     <bean id="compactDisc1" class="com.thinrain.demo03.CompactDisc">
         <constructor-arg name="title" value="床边故事" />
         <constructor-arg name="artist" value="周杰伦" />
+        <constructor-arg name="musicList">
+            <list>
+<!--                String简单类型用value直接注入-->
+<!--                <value>告白气球</value>-->
+<!--                <value>床边故事</value>-->
+
+
+<!--                非简单类型,上方bean注入后,ref引入再注入该bean-->
+                <ref bean="music1" />
+                <ref bean="music2" />
+            </list>
+        </constructor-arg>
     </bean>
 <!--    <bean id="compactDisc2" class="com.thinrain.demo03.CompactDisc" />-->
 <!--    <bean name="compactDisc3 compactDisc31" class="com.thinrain.demo03.CompactDisc" />-->
