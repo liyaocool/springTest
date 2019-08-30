@@ -2,5 +2,6 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean name="NotePad" class="com.thinrain.demo04.NotePad" />
+<!--    bean作用域: 默认 1单例sinleton;2原形Prototype,spring获取就会创建新bean实例;3会话Session,web会话就创建新bean实例;4请求request,请求就会创建bean实例-->
+    <bean name="NotePad" class="com.thinrain.demo04.NotePad" scope="prototype"/>
 </beans>
