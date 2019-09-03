@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbd72c0-19d5-4ec1-bb25-2f29aee944dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/aspect/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thinrain/springAOP2/SpringAOP2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thinrain/springJDBC1/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springJDBC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thinrain/springJDBC1Test/JDBC1Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -38,40 +44,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/IUserService.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="99">
+              <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/springJDBC1Test/JDBC1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/aspect/MyAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="209">
+              <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,13 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/springAOP2/SpringAOP2Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springJDBC1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -97,8 +79,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -123,6 +105,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/aspect/MyAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thinrain/springAOP2/SpringAOP2Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thinrain/springJDBC1/Emp.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cfca88c6-4077-4099-a461-6b077b499b9e/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/springJDBC1.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thinrain/springJDBC1Test/JDBC1Test.java" />
       </list>
     </option>
   </component>
@@ -165,71 +152,7 @@
               <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="springTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinrain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinrain" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinrain" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP2" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinrain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinrain" type="462c0819:PsiDirectoryNode" />
-              <item name="springAOP2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,6 +162,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -246,6 +170,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -287,17 +212,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringAOP2Test">
-    <configuration name="MyAspectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JDBC1Test">
+    <configuration name="JDBC1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thinrain.aop1.*" />
+          <option name="PATTERN" value="com.thinrain.springJDBC1Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thinrain.aop1" />
-      <option name="MAIN_CLASS_NAME" value="com.thinrain.aop1.MyAspectTest" />
+      <option name="PACKAGE_NAME" value="com.thinrain.springJDBC1Test" />
+      <option name="MAIN_CLASS_NAME" value="com.thinrain.springJDBC1Test.JDBC1Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -366,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JDBC1Test" />
         <item itemvalue="JUnit.SpringAOP2Test" />
         <item itemvalue="JUnit.RunTest" />
         <item itemvalue="JUnit.runTest" />
         <item itemvalue="JUnit.runTest.test" />
-        <item itemvalue="JUnit.MyAspectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -394,6 +319,8 @@
       <workItem from="1567157605035" duration="532000" />
       <workItem from="1567388255778" duration="2143000" />
       <workItem from="1567406157318" duration="11220000" />
+      <workItem from="1567486656836" duration="1851000" />
+      <workItem from="1567491543537" duration="7442000" />
     </task>
     <task id="LOCAL-00001" summary="1.log4j日志配置;&#10;2.单元测试使用;&#10;3.选择性自动装配(required=false)">
       <created>1566971526456</created>
@@ -528,22 +455,17 @@
       <option name="project" value="LOCAL" />
       <updated>1567477915521</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="纯注解,配置spring AOP编程">
+      <created>1567478853624</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1567478853624</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTest - 2019.09.03 at 10h 03m 09s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.09.03 at 10h 05m 46s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.09.03 at 10h 07m 24s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="runTest - 2019.09.03 at 10h 20m 47s.xml">
-      <configuration name="runTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunTest - 2019.09.03 at 10h 21m 03s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
@@ -562,24 +484,37 @@
     <history-entry file="RunTest - 2019.09.03 at 10h 31m 06s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringAOP2Test - 2019.09.03 at 10h 47m 03s.xml">
+      <configuration name="SpringAOP2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBC1Test - 2019.09.03 at 14h 36m 53s.xml">
+      <configuration name="JDBC1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBC1Test - 2019.09.03 at 14h 37m 06s.xml">
+      <configuration name="JDBC1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBC1Test - 2019.09.03 at 15h 00m 44s.xml">
+      <configuration name="JDBC1Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4804000" />
+    <option name="totallyTimeSpent" value="14291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32962137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3051225" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3051225" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -587,9 +522,9 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3051225" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32962137" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -597,7 +532,7 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" weight="0.26972282" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -635,7 +570,8 @@
     <MESSAGE value="引入aop" />
     <MESSAGE value="使用jdk代理实现aop代理切面编程" />
     <MESSAGE value="纯XML,配置spring AOP编程" />
-    <option name="LAST_COMMIT_MESSAGE" value="纯XML,配置spring AOP编程" />
+    <MESSAGE value="纯注解,配置spring AOP编程" />
+    <option name="LAST_COMMIT_MESSAGE" value="纯注解,配置spring AOP编程" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -696,15 +632,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/springAOP1/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/springAOP1/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/springAOP1/aspect/MyAspect.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/springAOP1/IUserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/springAOP1/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/springAOP1/aspect/MyAspect.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/springAOP1/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -712,20 +642,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -739,10 +655,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/springAOP2/SpringAOP2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/aspect/MyAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -751,21 +677,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/springAOP2/SpringAOP2Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="133">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springAOP2/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2d5aaef4-1609-490e-b864-413d9419f685/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ce692e3e-182f-4e02-a39c-c8773272f5af/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cfca88c6-4077-4099-a461-6b077b499b9e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thinrain/springJDBC1/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thinrain/springJDBC1Test/JDBC1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springJDBC1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -821,11 +803,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|springTest</last-edited>
+          <last-edited>springTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.38726515" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
