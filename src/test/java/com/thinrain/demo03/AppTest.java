@@ -7,7 +7,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:applicationContextDemo03-constructor.xml")
+@ContextConfiguration("classpath:demo03-constructor.xml")
 public class AppTest {
     @Autowired
     private CompactDisc compactDisc1;
